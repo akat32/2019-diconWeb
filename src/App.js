@@ -6,12 +6,16 @@ import {
   Switch,
   Route,
 } from 'react-router-dom'
+import { Main, ItemPage, Basket,Setting } from './component'
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route path = '/'/>
-        
+        <Route exact path = '/' component = { Main }/>
+        <Route path = '/item/:num' component = { ItemPage }/>
+        <Route path = '/basket' component = { Basket} />
+        <Route exact path = '/Setting' component = {Setting}/>
       </Router>
     </div>
   );

@@ -1,0 +1,33 @@
+.Nav {
+    width :100vw;
+    height: 8.5vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.navB {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 7vw;
+    height: 7vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.home { 
+    margin-left: 12vw;
+    background-image: url('../../assets/home.svg');
+}
+.bas {
+    background-image: url('../../assets/shopping-cart.svg');
+}
+.setting {
+    margin-right: 12vw;
+    background-image: url('../../assets/settings-cog.svg');
+}

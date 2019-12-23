@@ -1,0 +1,22 @@
+.basketPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nonText {
+    font-weight: bold;
+    font-size: 3.8vw;
+}
+
+.nonImg {
+    margin-top: 6vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../assets/mock.PNG');
+    width: 90%;
+    height: 40%;
+}

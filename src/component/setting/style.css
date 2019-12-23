@@ -1,0 +1,42 @@
+.settingPage { 
+    width :100vw;
+    height: 91.5vh;
+}
+
+.profile { 
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8vh;
+    margin: auto;
+}
+
+.Pname {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc( 8vh + 35vw + 3vh);
+    margin: auto;
+}
+
+.linkGo {
+    height: 7vh;
+    line-height: 7vh;
+    /* border-top: solid 2px #f6c244; */
+    border-bottom: 2px solid #fff;
+    background-color: #f6c244;
+    width: 95vw;
+    font-size: 4vw;
+    color: #fff;
+    padding-left: 5vw;
+}
+.dump {
+    height: calc(11vh + 35vw + 9vh);
+    width: 100vw;
+}
