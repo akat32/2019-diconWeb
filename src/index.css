@@ -31,3 +31,11 @@ p {
   display:none;  
 } 
 
+@font-face {
+  font-family: 'nanum';
+  src: url('./assets/font/nanum.ttf');
+}
+
+body { 
+  font-family: 'nanum';
+}
